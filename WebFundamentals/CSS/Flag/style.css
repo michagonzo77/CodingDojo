@@ -1,0 +1,50 @@
+.top {
+    display: flex;
+    width: 1000px;
+}
+.topleft {
+    flex: 1;
+    background-color: blue;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.topleft1 {
+    background-color: white;
+    width: 75px;
+    height: 100px;
+}
+.topleft2 {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+}
+.topleft3 {
+    background-color: white;
+    width: 75px;
+    height: 100px;
+}
+.topright {
+    flex: 3;
+}
+.blue {
+    background-color: blue;
+    width: 600px;
+    height: 50px;
+}
+.white {
+    background-color: white;
+    width: 600px;
+    height: 50px;
+}
+.whitelong {
+    background-color: white;
+    width: 1000px;
+    height: 50px;
+}
+.bluelong {
+    background-color: blue;
+    width: 1000px;
+    height: 50px;
+}

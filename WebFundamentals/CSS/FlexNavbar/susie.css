@@ -1,0 +1,31 @@
+.nav {
+    background-color: rgb(59,58,58);
+    color: white;
+    height: 60px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: blue;
+    box-shadow: 3px 4px 4px black;
+}

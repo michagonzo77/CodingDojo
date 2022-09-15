@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #404040;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    padding-left: 10px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color:  #bfbfbf;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+li .active {
+    color: white;
+}
+
+.btn {
+    background-color: #0086b3;
+    color:  #d9d9d9;
+    padding: 5px 10px;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+}
