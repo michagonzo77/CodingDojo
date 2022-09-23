@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Generic Classes */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* CONTENT BEGINS HERE */
+
+.content {
+    width: 700px;
+}
+
+/* NAVBAR */
+
+.nav {
+    background-color: grey;
+    padding: 10px;
+}
+
+.top_left {
+    border: 1px solid black;
+}
+
+
+
+/* Right Column */
+
+.right_column {
+    border: 1px solid black;
+}

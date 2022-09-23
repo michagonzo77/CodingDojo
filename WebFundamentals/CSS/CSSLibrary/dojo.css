@@ -1,0 +1,76 @@
+/* CSS reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+.container {
+width: 1200px;
+margin: 0 auto;
+}
+
+.btn {
+    border: 1px solid mediumseagreen;
+    background-color: snow;
+    color: mediumseagreen;
+    border-radius: 15px;
+    font-size: 1rem;
+    width: 125px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    height: 100px;
+}
+
+.col {
+    flex: 1;
+    background-color: teal;
+    color: white;
+    font-size: 22px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #404040;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    padding-left: 10px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color:  #bfbfbf;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+li .active {
+    color: white;
+}

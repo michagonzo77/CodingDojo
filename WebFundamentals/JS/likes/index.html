@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div class="nav">
+                <h1>Network</h1>
+            </div>
+            <div class="feed_title">
+                <h1>Your Feed</h1>
+            </div>
+            <div class="feed flex">
+                <div id="left_column">
+                    <img src="phil-s.jpg">
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+                <div id="right_column">
+                    <div class="posts">
+                        <div class="top">
+                            <h1>Shawn C</h1>
+                            <div class="flex">
+                            <p class="likes" id="likes1">777</p>
+                            <p> like(s)</p>
+                            </div>
+                            <button id="btn1" onclick="countLikes('#likes1')">Like</button>   
+                        </div>
+                        <p>I'm afraid for the calendar. Its days are numbered.</p>
+                    </div>
+                    <div class="posts">
+                        <div class="top">
+                            <h1>Winter P</h1>
+                            <div class="flex">
+                            <p class="likes" id="likes2">941</p>
+                            <p> like(s)</p>
+                            </div>
+                            <button id="btn2" onclick="countLikes('#likes2')">Like</button>   
+                        </div>
+                        <p>Why do JavaScripters wear glasses? Because they don't C#</p>
+                    </div>
+                    <div class="posts">
+                        <div class="top">
+                            <h1>Michael G</h1>
+                            <div class="flex">
+                            <p class="likes" id="likes3">518</p>
+                            <p> like(s)</p>
+                            </div>
+                            <button id="btn3" onclick="countLikes('#likes3')">Like</button>   
+                        </div>
+                        <p>The good thing about music, is when it hits you feel no pain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

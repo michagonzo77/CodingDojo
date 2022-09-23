@@ -1,0 +1,68 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    /* display: block;
+    justify-content: center;
+    flex-direction: column; */
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.navbarleft {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.navbarleft ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+}
+
+.seattle {
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.topLeft {
+    border: 2px solid black;
+}
+
+.bottomsection {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    gap: 40px;
+}
+
+/* Top Right */
+
+.columnRight {
+    border: 2px solid black;
+}
+
+.bottomLeft {
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.educationtitle {
+    background-color: grey;
+    color: white;
+}

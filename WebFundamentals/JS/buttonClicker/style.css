@@ -1,0 +1,135 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Generic Classes */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+}
+
+/* BUTTONS */
+
+.btn_login {
+    background-color: #2B78E4;
+    color: white;
+}
+
+.definition_left button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFD966;
+    margin-top: 15px;
+}
+
+.btn_add_definition {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #93C47D;
+    margin-top: 15px;
+    width: 200px;
+}
+
+/* Navigation Bar */
+
+.top_bar {
+    background-color: #CCCCCC;
+    width: 100%;
+}
+
+.nav {
+    background-color: #CCCCCC;
+    width: 100%;
+    padding: 15px 0px;
+    max-width: 850px;
+}
+
+.nav h1 {
+    font-size: 34px;
+}
+
+.search_bar {
+    width: 300px;
+    padding: 5px;
+}
+
+/* Content Section */
+
+.content {
+    margin-top: 30px;
+}
+
+.content_box {
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Left Side Content */
+
+.content_box h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.definition_left {
+    margin-right: 30px;
+}
+
+.definition {
+    font-size: 20px;
+    width: 300px;
+}
+
+/* Right Side Content */
+
+.right_column {
+    margin-left: 20px;
+}
+
+.right_content {
+    width: 200px;
+}
+
+.right_content p {
+    font-size: 28px;
+}
