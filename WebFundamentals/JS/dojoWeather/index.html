@@ -6,42 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojo Weather</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="flex align-center justify-evenly">
-        <h1>DojoWeather</h1>
-        <div id="cities">
-            <ul class="flex justify-between">
-                <li>Burbank</li>
-                <li>Chicago</li>
-                <li>Dallas</li>
-            </ul>
+    <div id="fullsite">
+        <div id="navigation">
+            <nav class="flex align-center justify-between">
+                <h1>DojoWeather</h1>
+                <div id="cities">
+                    <ul class="flex justify-between align-center">
+                        <li onclick="cityAlert()">Burbank</li>
+                        <li onclick="cityAlert()">Chicago</li>
+                        <li onclick="cityAlert()">Dallas</li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
-    <main>
-        <div id="topbar" class="flex justify-evenly align-center">
-            <h2>San Jose</h2>
-            <div>
-                <p>show temperature in</p>
-                <div class="dropdown">
-                    <button class="dropbtn">Dropdown</button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+        <main>
+            <div id="topbar" class="flex justify-between align-center border-bottom border-2">
+                <h2>San Jose</h2>
+                <div>
+                    <label for="temp-scale">show temperature in:</label>
+                    <select name="temp-scale" id="mySelect" onchange="convert()">
+                        <option value="celsius">°C</option>
+                        <option value="fahrenheit">°F</option>
+                    </select>
+                </div>
+            </div>
+            <div id="weather" class="flex justify-center align-center mt-5">
+                <div class="days">
+                    <h2>Today</h2>
+                    <img src="assets/some_rain.png" alt="clouds">
+                    <p>some rain</p>
+                    <div class="temps flex justify-center">
+                        <p class="red degrees">24</p>
+                        <p class="blue degrees">18</p>
+                    </div>
+                </div>
+                <div class="days">
+                    <h2>Today</h2>
+                    <img src="assets/some_sun.png" alt="clouds">
+                    <p>some sun</p>
+                    <div class="temps flex justify-center">
+                        <p class="red degrees">27</p>
+                        <p class="blue degrees">19</p>
+                    </div>
+                </div>
+                <div class="days">
+                    <h2>Today</h2>
+                    <img src="assets/some_clouds.png" alt="clouds">
+                    <p>some clouds</p>
+                    <div class="temps flex justify-center">
+                        <p class="red degrees">21</p>
+                        <p class="blue degrees">16</p>
+                    </div>
+                </div>
+                <div class="days">
+                    <h2>Today</h2>
+                    <img src="assets/some_sun.png" alt="clouds">
+                    <p>some sun</p>
+                    <div class="temps flex justify-center">
+                        <p class="red degrees">26</p>
+                        <p class="blue degrees">21</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-
-
-
-
-
-
+            <div id="cookie" class="flex border border-4 justify-evenly align-center">
+                <img src="assets/cookie.png" alt="cookie">
+                <div>
+                    <h3>Stop! Cookie Time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social
+                        media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button id="cookiebtn" onclick="hide('#cookie')">I Accept</button>
+            </div>
+        </main>
+    </div>
     <script src="script.js"></script>
 </body>
 
